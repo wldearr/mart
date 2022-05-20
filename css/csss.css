@@ -1,0 +1,161 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+p{
+    line-height: 1.66em;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.header{
+        background: rgba(77,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 135px;
+}
+.wrapper{
+    justify-content: space-between;
+    display: flex;
+}
+
+.offer{
+    margin-top: 110px;
+}
+
+.title{
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 84px;
+    width: 570px;
+}
+
+.title span{
+    font-size: 59px;
+}
+.intro{
+    width: 420px;
+    padding-bottom: 43px;
+}
+
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    background: #ffd429;
+    color: black;
+    display: block;
+    width: 210px;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    background: #d0aa12;
+    color: #fff;
+}
+
+.travel{
+    padding-top: 20px;
+}
+
+.learn{
+    margin-top: 110px;
+    margin-bottom: 74px;
+}
+
+.title2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 73px;
+}
+
+.futures{
+    display: flex;
+    justify-content: space-between;
+}
+.future{
+    text-align: center;
+}
+.time {
+    margin-bottom: 20px ;
+}
+.titleTime{
+    font-size: 19px;
+   
+}
+
+.ptime {
+    font-size: 15px;
+}
+.mail{
+    background: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.input{
+    display: block;
+    width: 340px;
+    padding: 14px 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn2{
+    font-family: 'Ubuntu', sans-serif;
+    background: #ffd429;
+    color: black;
+    display: block;
+    width: 340px;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    border: 0;
+}
+
+.btn2:hover{
+    background: #d0aa12;
+    color: #fff;
+    cursor: pointer;
+}
+
+.forma{
+    margin-left: 420px;
+}
+
+.footer{
+    padding: 33px 0;
+    background-color: #164d7a;
+}
+.creadits{
+    font-size: 14px;
+    color:#fff;
+    text-align: center;
+}  
+.time{
+    height: 63px;
+    width: 60px;
+
+}
